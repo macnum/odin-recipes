@@ -10,6 +10,12 @@ body {
     min-height: 90vh;
     margin: 0 auto;
 }
+h1 {
+    color: blueviolet;
+}
+h1:hover  {
+    color: crimson;
+}
 h1, div, ul {
     text-align: center;
 }
@@ -17,7 +23,7 @@ ul {
     list-style-position: inside;
 }
 img {
-    max-width: 450px;
+    max-width: 80%;
     height: auto;  
     padding: 20px;
     
