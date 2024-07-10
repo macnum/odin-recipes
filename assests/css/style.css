@@ -1,0 +1,79 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+ul {
+    list-style-type: none;
+}
+header,footer {
+    background-color: #222;
+    color:#ffffff;
+    height: 5rem;
+    text-align: center;
+}
+h2,h3 {
+    margin-top: 20px;
+}
+.header {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+.header h1 {
+    margin-right: auto;
+}
+.header .navbar-list {
+    display: flex;
+    gap: 30px;
+    
+}
+.header .navbar-item {
+    margin-right: 20px;
+}
+
+.header .navbar-list a {
+    text-decoration: none;
+    color: rgb(97, 112, 112);
+}
+.header .navbar-list a:hover  {
+    color: aliceblue;
+}
+
+img {
+    width: 450px;
+    height: 300px;
+}
+main {
+    width:fit-content;
+    margin: 30px;
+}
+.recipe {
+    max-width: fit-content;
+    margin:30px auto;
+}
+
+.recipe > figure {
+    margin-bottom: 20px;
+    
+}
+.recipe > figure a {
+    text-decoration: none;
+    color: rgb(97, 112, 112);
+}
+
+@media (max-width: 620px) {
+    header .navbar-list a {
+        display: none;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+    }
+    main,header, section,article {
+        text-align: center;
+        
+    }
+
+}
